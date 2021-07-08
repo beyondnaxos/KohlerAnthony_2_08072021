@@ -4,10 +4,16 @@
 
 }
 
+.logo {
+    width: 105%;
+    height: auto;
+}
+
 #titleSearch {
     font-weight: bolder;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
+    font-size: 1.4em;
 }
 
 #parSearch {
@@ -43,7 +49,6 @@ nav {
     color: #0065fc;
     font-weight: bold;
     border-top: 1em solid #0065fc;
-    border-width: 100%;
     transition-duration: 250ms;
 }
 
@@ -57,7 +62,7 @@ nav {
 .searchBar {
     display: flex;
     flex-direction: row;
-    padding: 0.8ems;
+    /* padding: 0.8em; */
     padding-top: 1em;
 }
 
@@ -106,6 +111,7 @@ nav {
     flex-direction: row;
     align-items: center;
     align-content: center;
+    flex-wrap: wrap;
 }
 
 .titleFiltre {
@@ -153,7 +159,8 @@ button {
 }
 
 .fas {
-    margin-right: 1.3em;    
+    margin-right: 1.3em;   
+    padding-left: 0; 
     
 }
 
@@ -211,3 +218,28 @@ i {
     justify-content: center;
     align-items: center;
 }
+
+
+.hostAndPopular {
+    margin: 1em 13% 1em 13%;
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+
+}
+
+.host {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    background-color: #f2f2f2;
+}
+
+.popular {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #f2f2f2;
+}
+
