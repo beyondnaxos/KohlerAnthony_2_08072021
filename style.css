@@ -181,3 +181,33 @@ i {
     justify-content: center;
     align-items: center;
 }
+
+#iconsFiltre1 {
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    height: 3.2rem;
+    width: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#iconsFiltre2 {
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    height: 3.2rem;
+    width: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#iconsFiltre3 {
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    height: 3.2rem;
+    width: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
