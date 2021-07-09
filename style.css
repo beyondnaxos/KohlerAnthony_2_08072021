@@ -37,6 +37,18 @@ nav {
 
 }
 
+.hostNav {
+    order: 1;
+}
+
+.actNav {
+    order: 1;
+}
+
+.signNav {
+    order: 1;
+}
+
 .topNavMenu {
     padding: 0.8em 1.4em 0.5em 1.4em;
     text-decoration: none;
@@ -126,6 +138,7 @@ nav {
 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .filtre {
@@ -142,6 +155,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-left: none;
     
 }
 
