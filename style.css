@@ -259,15 +259,15 @@ i {
     width: 55%;
     background-color: #f2f2f2;
     border-radius: 1em;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 
 .headerHostTitle {
-    width: 100%;
-    margin-left: 2em;
+    width: 90%;
     height: 2em;
     font-size: 1.2em;
+    padding-bottom: 1em;
 }
 
 .headerHostTitle h1 {
@@ -278,9 +278,9 @@ i {
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
-    width: 16em ;
-
-    margin: 1em;
+    width: 28% ;
+    margin-bottom: 2em;
+    /* margin: 0.5em; */
     /* padding-right: 0; */
     border-radius: 0.7em 0.7em 0.7em 0.7em;
     display: flex;
@@ -302,7 +302,7 @@ i {
     border-radius: 1em 1em 0 0;
     padding-top: 0.3em;
     width: 94%;
-    height: 7em;
+    height: 8em;
 	object-fit: cover;
     /* margin-left: 0.8em; */
 
@@ -335,11 +335,7 @@ i {
     margin-top: 3px;
 }
 
-#star {
-    margin-top: 0em;
-    padding-left: 1em;
-    margin-bottom: 1em;
-}
+
 
 #imgLink img {
     margin-left: auto;
@@ -347,39 +343,22 @@ i {
     margin-top: 0.2em;
 }
 
-/* .HostCardImageBig {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-decoration: none;
-
-} */
-
-.host
-
-/* .popular {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    background-color: #f2f2f2;
-} */
-
 #emptyStar {
     color: #f2f2f2;
 
 }
 
-#img1 {
-    padding: 0 auto 0 auto;
-}
+
 
 
 .hostCardRating {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding-left: 0;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
     height: 1.5em;
+
 
 }
 
@@ -387,6 +366,7 @@ i {
     height: 2em;
     margin-top: 0.5em;
 }
+
 .hostCardPrice {
     display: flex;
     align-items: center;
@@ -397,6 +377,13 @@ i {
 
 .ratingStar {
     margin-right: 0.2em ;
+    
+}
+
+.emptyStar {
+    color: #f2f2f2;
+    margin-right: 0.2em ;
+
 }
 
 @media all and (max-width: 600px){
@@ -494,3 +481,17 @@ i {
         margin-top: 0.5em;
     }
 }
+
+@media all and (max-width: 1500px){
+.hostCard {
+    width: 40% ;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+}
+@media all and (max-width: 1200px){
+    .hostCard {
+        width: 100% ;
+        margin-left: 1em;
+        margin-right: 1em;
+    }}
