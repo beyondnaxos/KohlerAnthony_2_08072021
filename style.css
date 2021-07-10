@@ -84,6 +84,8 @@ justify-content: center;
     flex-direction: row;
     /* padding: 0.8em; */
     padding-top: 1em;
+    
+    
 }
 
 .searchInput {
@@ -115,6 +117,12 @@ justify-content: center;
     transition-delay: 50ms;
     font-weight: bold;
 }
+/* .searchButton,.icon,.glass:hover {
+    color:  #0065fc;
+    transition-duration: 350ms;
+    transition-delay: 50ms;
+    font-weight: bold;
+} */
 
 
 .searchHeader {
@@ -244,7 +252,7 @@ i {
 
 
 .hostAndPopular {
-    margin: 1em auto 1em 13%;
+    /* margin: 1em auto 1em 13%; */
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
@@ -260,6 +268,8 @@ i {
     background-color: #f2f2f2;
     border-radius: 1em;
     justify-content: space-evenly;
+    margin: 1em 13% 1em 13%;
+    
 
 }
 
@@ -351,6 +361,7 @@ i {
 
 
 
+
 .hostCardRating {
     display: flex;
     flex-direction: row;
@@ -386,7 +397,7 @@ i {
 
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 375px){
 
 
     .topHeader {
@@ -408,6 +419,8 @@ i {
         order: 2;
        width: 50%;
     }
+
+    
 
     .actNav {
         order: 3;
@@ -438,8 +451,18 @@ i {
        flex-direction: row;
    }
 
+   main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    width: 100%;
+
+   }
+
+   
+
    .hostAndPopular {
-    margin: 1em auto 1em auto;
+    /* margin: 1em 13% 1em auto; */
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
@@ -450,6 +473,9 @@ i {
    .host {
 
        width: 90%;
+       /* margin: 1em 13% 1em 13%; */
+       
+
    }
 
    .hostCard {
@@ -494,4 +520,59 @@ i {
         width: 100% ;
         margin-left: 1em;
         margin-right: 1em;
-    }}
+    }
+
+    .host {
+        width: 100%;
+        margin: 1em 13% 1em 13%;
+        
+    }
+    /* .hostAndPopular {
+        margin: 1em 13% 1em 13%;
+        
+    } */
+}
+
+@media (min-width: 641px) {
+    span.icon {display:none}
+    span.text {display:inline-block}
+}
+
+@media (max-width: 640px) {
+    span.icon {display:inline-block}
+    span.text {display:none}
+    .glass {
+        color: white;
+       
+      
+    }
+    
+    .textIcon {
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+            }
+
+    .searchBar {
+    display: flex;
+    flex-direction: row;
+    /* padding: 0.8em; */
+    padding-top: 1.2em;
+    /* overflow: auto; */
+}
+
+    .searchButton {
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .searchButton:hover .icon .glass {
+        color: #0065fc;
+        background-color: #fff;
+    }
+
+* {
+        font-size: 0.96em;
+    }
+}
