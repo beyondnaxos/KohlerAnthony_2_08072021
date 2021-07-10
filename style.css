@@ -140,6 +140,7 @@ justify-content: center;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+    
 }
 
 .titleFiltre {
@@ -172,8 +173,25 @@ justify-content: center;
     justify-content: center;
     align-items: center;
     border-left: none;
+    transition-duration: 250ms;
 
 }
+
+.filtre:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    background-color: #0065fc;
+    color: white;
+    transition-duration: 250ms;
+}
+.filtre:hover  .iconFilter{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    background-color: #0065fc;
+    color: white;
+    transition-duration: 250ms;
+}
+
 
 button {
     padding-left: 0;
@@ -296,11 +314,18 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 
+}
 
-
-
-
+.hostCard:hover {
+    -webkit-transform: scale(1.0.2);
+    transform: scale(1.02);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 
@@ -397,7 +422,7 @@ i {
 
 }
 
-@media all and (max-width: 375px){
+@media all and (max-width: 668px){
 
 
     .topHeader {
