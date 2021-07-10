@@ -1,6 +1,7 @@
 * {
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 1em;
 
 }
 
@@ -247,6 +248,7 @@ i {
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
+    justify-content: space-between;
 
 }
 
@@ -254,33 +256,106 @@ i {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 50%;
+    width: 55%;
     background-color: #f2f2f2;
-    border-radius: 0.7em 0.7em 0 0;
+    border-radius: 1em;
+    justify-content: center;
 
+}
+
+.headerHostTitle {
+    width: 100%;
+    margin-left: 2em;
+    height: 2em;
+    font-size: 1.2em;
+}
+
+.headerHostTitle h1 {
+    font-weight: 600;
 }
 
 .hostCard {
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
-    width: 200px ;
+    width: 16em ;
+
     margin: 1em;
-    padding-right: 0;
+    /* padding-right: 0; */
     border-radius: 0.7em 0.7em 0.7em 0.7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
 
 
 
 }
+
+
+
 
 .host img {
-    width: 96%;
-    object-fit: fill;
-    border-radius: 0.7em 0.7em 0 0;
-    padding-left: 0.3em;
+    /* width: 96%;
+    object-fit: cover; */
+    border-radius: 1em 1em 0 0;
     padding-top: 0.3em;
+    width: 94%;
+    height: 7em;
+	object-fit: cover;
+    /* margin-left: 0.8em; */
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
 
 }
+
+#imgLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+#hostName {
+    font-weight: bold;
+    padding-left: 1em;
+    margin-top: 0.4em;
+    margin-bottom: 0;
+    padding-top: 0;
+
+}
+
+#hostPrice {
+    padding-left: 1em;
+    margin-top: 3px;
+}
+
+#star {
+    margin-top: 0em;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+#imgLink img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.2em;
+}
+
+/* .HostCardImageBig {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+
+} */
+
+.host
 
 /* .popular {
     display: flex;
@@ -294,13 +369,36 @@ i {
 
 }
 
+#img1 {
+    padding: 0 auto 0 auto;
+}
+
+
 .hostCardRating {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
+    padding-left: 0;
+    height: 1.5em;
 
 }
+
+.hostCardName {
+    height: 2em;
+    margin-top: 0.5em;
+}
+.hostCardPrice {
+    display: flex;
+    align-items: center;
+    height: 2em;
+
+    
+}
+
+.ratingStar {
+    margin-right: 0.2em ;
+}
+
 @media all and (max-width: 600px){
 
 
@@ -353,8 +451,43 @@ i {
        flex-direction: row;
    }
 
+   .hostAndPopular {
+    margin: 1em auto 1em auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: center;
+    width: 100%;
+   }
+
+   .host {
+
+       width: 90%;
+   }
+
+   .hostCard {
+        width: fit-content;
+        justify-content: center;
+        width: 100%;
+   }
+
+   .host img {
+    /* width: 96%;
+    object-fit: cover; */
+    border-radius: 0.7em 0.7em 0 0;
+    padding-top: 0.3em;
+    width: 96%;
+    height: 7em;
+	object-fit: cover;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
 
 }
+
+}
+
+
 
 @media all and (max-width: 1150px) {
     .filtre {
