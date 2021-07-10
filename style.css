@@ -2,6 +2,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 1em;
+    box-sizing: border-box;
 
 }
 
@@ -132,6 +133,7 @@ strong {
     display: flex;
     flex-direction: column;
     margin: 1em 13% 1em 13%;
+    
 
 
 }
@@ -287,8 +289,10 @@ i {
 .headerHostTitle {
     width: 90%;
     height: 2em;
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding-bottom: 1em;
+    margin-bottom: 1em;
+    font-weight: 500;
 }
 
 .headerHostTitle h1 {
@@ -474,8 +478,9 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-
+        max-width: 1440px;
+        margin: auto;
+    
    }
 
 
