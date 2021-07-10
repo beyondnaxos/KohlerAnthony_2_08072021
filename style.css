@@ -181,8 +181,8 @@ strong {
 }
 
 .filtre:hover{
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     background-color: #0065fc;
     color: white;
     transition-duration: 250ms;
@@ -206,11 +206,17 @@ strong {
 
 
 .filtre:hover  .iconFilter{
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    
     background-color: #ffffff;
     color: #0065fc;
-    transition-duration: 250ms;
+    transition-duration: 450ms;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
     
 }
 
