@@ -10,3 +10,9 @@
          Css : Rendu responsive de la navBar et filtres + correction bug hoover et bulle icone filtre de 08/07 , mise en place de host + popular 
          
          soucis : le signUp se place mal entre 2 resolutions , 
+
+10/07/21 Html : Remplacement des id en class, réorganisation du code,
+         Css : Remplacement des id en class, , animation des boutons filtres , scale animation sur les hostCards , redimention filtres + searchbar,
+         responsive sur le bouton search 'text to icon '
+         
+         soucis : revoir taille des polices , et mettre l'image a gauche en mobile sur les hostCards 
