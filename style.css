@@ -3,6 +3,8 @@
   font-weight: 500;
   font-size: 1em;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .logogo {
@@ -242,8 +244,9 @@ i {
 .headerHostTitle {
   width: 90%;
   font-size: 1.3em;
-  font-weight: 500;
   margin-left: 0;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
 }
 
 .headerHostTitle h3 {
@@ -414,12 +417,12 @@ i {
     /* margin: 1em 13% 1em 13%; */
   }
 
-  .hostCard {
+  /* .hostCard {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 1.5em;
-  }
+  } */
 
   .host img {
     /* width: 96%;
@@ -447,12 +450,12 @@ i {
   }
 
   .hostCard {
-    width: 47%;
+    width: 32%;
   }
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1000px) {
   .hostCard {
-    width: 45%;
+    width: 47%;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 1.5em;
@@ -495,13 +498,19 @@ i {
     flex-direction: row;
     /* padding: 0.8em; */
     padding-top: 1.2em;
+    margin: auto;
     /* overflow: auto; */
+  }
+
+  .searchInput {
+    border: none;
   }
 
   .searchButton {
     padding-right: 0;
     display: flex;
     justify-content: center;
+    border-radius: 30%;
   }
 
   .searchButton:hover .icon .glass {
@@ -518,7 +527,8 @@ i {
     flex-direction: column;
     margin: 1em 5% 1em 5%;
   }
-
+  
+  
   .host {
     display: flex;
     flex-direction: row;
@@ -527,11 +537,12 @@ i {
     background-color: #f2f2f2;
     border-radius: 1em;
     justify-content: space-evenly;
-    margin: 0.5em 5% 1em 5%;
+    margin: 0.5em 1% 1em 1%;
+    
   }
 
   .hostCard {
-    width: 100%;
+    width: 95%;
   }
 
   .host img {
