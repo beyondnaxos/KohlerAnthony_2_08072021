@@ -38,7 +38,7 @@
 }
 
 .topNavSignUp {
-  padding: 0.8em 1.4em 0.5em 1.4em;
+  padding: 0.5em 1.4em 0.5em 1.4em;
   text-decoration: none;
   font-weight: bold;
   color: #0065fc;
@@ -71,7 +71,6 @@
 .searchBar {
   display: flex;
   flex-direction: row;
-  /* padding: 0.8em; */
   padding-top: 1em;
 }
 
@@ -233,7 +232,7 @@ i {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 55%;
+  width: 45%;
   background-color: #f2f2f2;
   border-radius: 1em;
   justify-content: space-evenly;
@@ -242,11 +241,9 @@ i {
 
 .headerHostTitle {
   width: 90%;
-  height: 2em;
-  font-size: 1.5em;
-  padding-bottom: 1em;
-  margin-bottom: 1em;
+  font-size: 1.3em;
   font-weight: 500;
+  margin-left: 0;
 }
 
 .headerHostTitle h3 {
@@ -257,16 +254,18 @@ i {
   display: flex;
   flex-direction: row;
   background-color: #ffffff;
-  width: 28%;
-  margin-bottom: 2em;
+  width: 30%;
+  margin-bottom: 1.5em;
   /* margin: 0.5em; */
   /* padding-right: 0; */
-  border-radius: 0.7em 0.7em 0.7em 0.7em;
+  border-radius: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   transform: scale(1);
   transition: 0.3s ease-in-out;
+  margin-right: 0;
+  margin-left: 0;
   /* box-shadow: 0 0 0.1em 0.5em #0000002e; */
 }
 
@@ -276,41 +275,38 @@ i {
 }
 
 .host img {
-  /* width: 96%;
-    object-fit: cover; */
   border-radius: 1em 1em 0 0;
-  padding-top: 0.3em;
+  padding-top: 0.25em;
   width: 94%;
-  height: 8em;
+  height: 7em;
   object-fit: cover;
-  /* margin-left: 0.8em; */
-
-  /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
 }
-
 
 .hostName {
   font-weight: bold;
   padding-left: 1em;
-  margin-top: 0.4em;
+  padding-right: 1em;
+  margin-top: 0.2em;
   margin-bottom: 0;
   padding-top: 0;
+  font-size: 0.9em;
+  font-weight: 600;
 }
 
 .hostPrice {
   padding-left: 1em;
-  margin-top: 3px;
+  margin-top: 0.3em;
+  margin-bottom: 0.4em;
+  font-size: 0.9em;
 }
 
 .HostCardImageBig {
-    display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   text-decoration: none;
   color: black;
-  }
+}
 
 .HostCardImageBig img {
   margin-left: auto;
@@ -328,18 +324,17 @@ i {
   justify-content: flex-start;
   padding-left: 1em;
   padding-bottom: 2em;
-  height: 1.5em;
+  height: 1.2em;
 }
 
 .hostCardName {
-  height: 2em;
   margin-top: 0.5em;
 }
 
 .hostCardPrice {
   display: flex;
   align-items: center;
-  height: 2em;
+  margin: 0;
 }
 
 .ratingStar {
@@ -415,16 +410,15 @@ i {
   }
 
   .host {
-    width: 90%;
+    width: 100%;
     /* margin: 1em 13% 1em 13%; */
   }
 
   .hostCard {
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    justify-content: center;
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1.5em;
   }
 
   .host img {
@@ -447,28 +441,27 @@ i {
   }
 }
 
-@media all and (max-width: 1500px) {
+@media all and (max-width: 1859px) {
+  .host {
+    width: 100%;
+  }
+
   .hostCard {
-    width: 40%;
-    margin-left: 1em;
-    margin-right: 1em;
+    width: 47%;
   }
 }
 @media all and (max-width: 1200px) {
   .hostCard {
-    width: 100%;
-    margin-left: 1em;
-    margin-right: 1em;
+    width: 45%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1.5em;
   }
 
   .host {
     width: 100%;
     margin: 1em 13% 1em 13%;
   }
-  /* .hostAndPopular {
-        margin: 1em 13% 1em 13%;
-
-    } */
 }
 
 @media (min-width: 641px) {
@@ -517,6 +510,51 @@ i {
   }
 
   * {
-    font-size: 0.96em;
+    font-size: 1em;
+  }
+
+  .searchHeader {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 5% 1em 5%;
+  }
+
+  .host {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 1em;
+    justify-content: space-evenly;
+    margin: 0.5em 5% 1em 5%;
+  }
+
+  .hostCard {
+    width: 100%;
+  }
+
+  .host img {
+    border-radius: 1em 1em 0 0;
+    padding-top: 0.25em;
+    width: 97%;
+    height: 9em;
+    object-fit: cover;
+  }
+
+  .hostCardName {
+    font-size: 1.2em;
+  }
+
+  .hostCardPrice {
+    font-size: 1.2em;
+  }
+
+  .hostCardRating {
+    font-size: 1.2em;
+  }
+
+  .iconFilter {
+    margin-right: 0.5em;
   }
 }
