@@ -242,9 +242,9 @@ i {
 }
 
 .headerHostTitle {
-  width: 90%;
+  width: 100%;
   font-size: 1.3em;
-  margin-left: 0;
+  margin-left: 1.3em;
   margin-top: 0.7em;
   margin-bottom: 0.7em;
 }
