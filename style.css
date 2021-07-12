@@ -195,7 +195,7 @@ i {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 45%;
+  width: 60%;
   background-color: #f2f2f2;
   border-radius: 1em;
   justify-content: space-evenly;
@@ -294,6 +294,73 @@ i {
   color: #f2f2f2;
   margin-right: 0.2em;
 }
+
+.popular {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 35%;
+  background-color: #f2f2f2;
+  border-radius: 1em;
+  justify-content: space-evenly;
+  margin: 1em 13% 1em auto;
+}
+
+.popCard {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 95%;
+  height: 25%;
+  /* margin: 0.5em; */
+  /* padding-right: 0; */
+  border-radius: 1em;
+  display: flex;
+  flex-direction: row;
+  
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.popCard img {
+  border-radius: 1em 0 0 1em;
+  padding: 0.25em;
+  width: 35%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.popInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  
+}
+
+.popInfo h3 {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+font-weight: bold;
+
+}
+.popInfo p {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+}
+
+.popInfo .hostCardRating {
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  padding-left: 0;
+}
+
+
+
+
 @media all and (max-width: 668px) {
   .topHeader {
     margin: 0.5em 0.5em 0.5em 0.5em;
