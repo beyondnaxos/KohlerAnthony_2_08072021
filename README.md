@@ -16,3 +16,11 @@
          responsive sur le bouton search 'text to icon '
          
          soucis : revoir taille des polices , et mettre l'image a gauche en mobile sur les hostCards 
+         
+12/07/21 Html : correction de toutes les erreurs annoncées sur le w3c ( 60 erreurs liés au ID et aux h1-h6 ) 
+         Css : début de mise en place de la partie populaire ; passage de la photo à gauche du texte. réparation des aligns du searchHeader
+         
+         soucis : centrage de éléments à corriger ( host & po ) 
+         
+13/07/21 Html : Remplacement des photos et textes pour le bloc populaire ; 
+         Css : responsive des éléments host et pop ok ; 
