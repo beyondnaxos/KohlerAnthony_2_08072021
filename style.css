@@ -467,6 +467,7 @@ i {
   .popCard {
     width: 25%;
     margin: 0.5em;
+    height: 8em;
   }
 
   .hostCard {
@@ -499,7 +500,7 @@ i {
   }
 
   .popCard img {
-    height: 6.5em;
+    height: 100%;
   }
 
   
@@ -605,7 +606,7 @@ i {
   }
 
   .popCard img {
-    height: 6.5em;
+    height: 100%;
   }
 
   .hostCard {
