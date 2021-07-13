@@ -166,7 +166,9 @@ button {
 .quote {
   display: inline-flex;
   align-items: center;
-  margin-top: 1.3em;
+  margin-top : 1em;
+  margin-bottom: 1em;
+
 }
 .fas {
   margin-right: 1.3em;
@@ -199,7 +201,7 @@ i {
   background-color: #f2f2f2;
   border-radius: 1em;
   justify-content: space-evenly;
-  margin: 1em 13% 1em 13%;
+  margin: 1em 5% 1em 13%;
 }
 .headerHostTitle {
   width: 100%;
@@ -313,7 +315,6 @@ i {
   margin-right: auto;
 }
 
-
 .popHostTitle h3 {
   font-size: 1.2em;
   font-weight: bold;
@@ -331,7 +332,7 @@ i {
   border-radius: 1em;
   display: flex;
   flex-direction: row;
-  
+
   transform: scale(1);
   transition: 0.3s ease-in-out;
   margin-right: 0;
@@ -346,20 +347,16 @@ i {
   object-fit: cover;
 }
 
-
-
 .popInfo {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  
 }
 
 .popInfo h3 {
   margin-top: 0.5em;
   margin-left: 1em;
-font-weight: bold;
-
+  font-weight: bold;
 }
 .popInfo p {
   margin-top: 0.5em;
@@ -371,9 +368,6 @@ font-weight: bold;
   margin-top: auto;
   padding-left: 0;
 }
-
-
-
 
 @media all and (max-width: 668px) {
   .topHeader {
@@ -431,9 +425,8 @@ font-weight: bold;
   .host {
     width: 100%;
   }
-  
+
   .host img {
-    
     border-radius: 0.7em 0.7em 0 0;
     padding-top: 0.3em;
     width: 96%;
@@ -467,43 +460,52 @@ font-weight: bold;
     width: 100%;
     justify-content: center;
     margin: 0;
-    
+    align-items: center;
+    margin-bottom: 1em;
   }
 
   .popCard {
-    width: 100%;
+    width: 25%;
     margin: 0.5em;
   }
-
- 
 
   .hostCard {
     width: 32%;
   }
 
-
-
   .hostAndPopular {
     display: flex;
     flex-direction: column;
     margin: 1em 5% 1em 5%;
-    justify-content: center;  
+    justify-content: center;
     width: 88%;
   }
 }
-@media all and (max-width: 1000px) {
-  .hostCard {
-    width: 47%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 1.5em;
+
+@media all and (max-width: 1210px) {
+  .popular {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 1em;
+    justify-content: space-evenly;
+    margin: 0.5em 1% 1em 1%;
   }
 
-  .host {
-    width: 100%;
-    margin: 1em 13% 1em 13%;
+  .popCard {
+    width: 95%;
   }
+
+  .popCard img {
+    height: 6.5em;
+  }
+
+  
 }
+
+
 
 @media (min-width: 641px) {
   span.icon {
@@ -525,37 +527,24 @@ font-weight: bold;
     color: white;
   }
 
+  .popInfo h3 {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+  .popInfo p {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    font-size: 0.8em;
+  }
 
-  
-.popInfo h3 {
-  margin-top: 0.5em;
-  margin-left: 1em;
-font-weight: bold;
-font-size: 0.8em;
-
-}
-.popInfo p {
-  margin-top: 0.5em;
-  margin-left: 1em;
-  font-size: 0.8em;
-
-}
-
-
-
-.popInfo .hostCardRating {
-  margin-left: 1em;
-  margin-top: auto;
-  padding-left: 0;
-  font-size: 0.8em;
-}
-
-  /* .textIcon {
-    display: flex;
-    justify-content: center;
-    padding-right: 0;
-  } */
-
+  .popInfo .hostCardRating {
+    margin-left: 1em;
+    margin-top: auto;
+    padding-left: 0;
+    font-size: 0.8em;
+  }
   .searchBar {
     display: flex;
     flex-direction: row;
@@ -591,6 +580,8 @@ font-size: 0.8em;
     margin: 1em 5% 1em 5%;
   }
 
+  
+
   .host {
     display: flex;
     flex-direction: row;
@@ -613,10 +604,9 @@ font-size: 0.8em;
     margin: 0.5em 1% 1em 1%;
   }
 
-.popCard img {
-  height: 6.5em;
-}
-
+  .popCard img {
+    height: 6.5em;
+  }
 
   .hostCard {
     width: 95%;
@@ -645,7 +635,4 @@ font-size: 0.8em;
   .iconFilter {
     margin-right: 0.5em;
   }
-
-  
-
 }
