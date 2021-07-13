@@ -375,6 +375,55 @@ i {
   padding-left: 0;
 }
 
+
+.activities {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  background-color: #f2f2f2;
+  border-radius: 1em;
+  justify-content: space-evenly;
+  margin: 1em 13% 1em 13%;
+  
+}
+
+.activityCardBig {
+  width: 15%;
+  height: 30em;
+  object-fit: cover;
+  border-radius: 25%;
+}
+
+
+.activityCardBig img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 2em 2em 0 0;
+
+}
+
+.activityCardMedium {
+  width: 15%;
+  height: 13em;
+  object-fit: cover;
+  border-radius: 25%;
+  
+}
+
+
+.activityCardMedium img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 2em 2em 0 0;
+
+}
+
+
+
+
 @media all and (max-width: 668px) {
   .topHeader {
     margin: 0.5em 0.5em 0.5em 0.5em;
