@@ -297,6 +297,13 @@ i {
   margin-right: 0.2em;
 }
 
+.footerHostTitle {
+  width: 100%;
+  padding-left: 4%;
+  padding-bottom: 1em;
+
+}
+
 .popular {
   display: flex;
   flex-direction: row;
@@ -316,7 +323,7 @@ i {
 }
 
 .popHostTitle h3 {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: bold;
   margin-top: 0.5em;
 }
