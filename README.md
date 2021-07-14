@@ -26,3 +26,8 @@
          Css : responsive des éléments host et pop ok ; responsive css grid sur activities 
          
          soucis : calibrage couleurs écran empêche de bien voir les ombres 
+         
+14/07/21 Html : remplacement des balises en français par l'anglais, correction de quelques erreurs mineurs 
+         Css : responsive desktop tablette et phone Ok ! mise en place des ombres et des effets de scale . finition de la categorie activities 
+         
+         soucis : ras - à revoir : mettre des balises sémantiques (articles figure etc ..)
