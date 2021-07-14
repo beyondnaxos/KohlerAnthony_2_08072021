@@ -22,5 +22,7 @@
          
          soucis : centrage de éléments à corriger ( host & po ) 
          
-13/07/21 Html : Remplacement des photos et textes pour le bloc populaire ; 
-         Css : responsive des éléments host et pop ok ; 
+13/07/21 Html : Remplacement des photos et textes pour le bloc populaire ; création de la section activities 
+         Css : responsive des éléments host et pop ok ; responsive css grid sur activities 
+         
+         soucis : calibrage couleurs écran empêche de bien voir les ombres 
