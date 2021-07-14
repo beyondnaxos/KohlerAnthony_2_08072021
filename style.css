@@ -644,6 +644,10 @@ i {
 }
 
 @media all and (max-width: 1210px) {
+  .topHeader {
+    margin: 1em 5% 1em 5%;
+  }
+ 
   .popular {
     display: flex;
     flex-direction: column;
@@ -680,11 +684,39 @@ i {
   }
 
   .footerContainer {
-    grid-template-columns: 0.5fr 1.5fr 1fr 1.25fr 0.75fr;
+    grid-template-columns: 0.5fr 1.5fr 1.5fr 1.25fr 0.25fr;
     grid-gap: 3em;
   }
-
   
+  .activities {
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr;
+    grid-template-areas: 
+    "at1 at1 at1"
+    "a1 a2 a3"
+    "a4 a5 a6"
+    ;
+    margin: 2em 5% 4em 5%;
+    width: 90%;
+
+  }
+  
+  .activityCardBig{
+    width: auto;
+    height: 12em;
+    margin-bottom: 0;
+  }
+  .activityCardMedium {
+    width: auto;
+    height: 12em;
+  }
+  .activityCardSmall {
+    width: auto;
+    height: 12em;
+  }
+
+
+
 }
 
 @media (min-width: 641px) {
