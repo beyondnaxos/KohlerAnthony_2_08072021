@@ -228,13 +228,20 @@ i {
   transition: 0.3s ease-in-out;
   margin-right: 0;
   margin-left: 0;
-
-  /* box-shadow: 0 0 0.1em 0.5em #0000002e; */
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
+
 .hostCard:hover {
   transform: scale(1.02);
   transition: 0.3s ease-in-out;
 }
+
+.popCard:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+}
+
 .host img {
   border-radius: 1em 1em 0 0;
   padding-top: 0.25em;
@@ -344,6 +351,8 @@ i {
   transition: 0.3s ease-in-out;
   margin-right: 0;
   margin-left: 0;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
 .popCard img {
@@ -429,9 +438,10 @@ i {
   height: 25em;
   object-fit: cover;
   border-radius: 25%;
-
-
-  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
 .activityCardBig img {
@@ -439,6 +449,21 @@ i {
   height: 100%;
   object-fit: cover;
   border-radius: 2em 2em 0 0;
+}
+
+.activityCardSmall:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+}
+
+.activityCardMedium:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+}
+
+.activityCardBig:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
 }
 
 .activityName {
@@ -457,6 +482,10 @@ i {
   object-fit: cover;
   border-radius: 25%;
   margin-bottom: 2em;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
   /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
@@ -472,6 +501,10 @@ i {
   height: 7em;
   object-fit: cover;
   border-radius: 25%;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
   /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
@@ -520,15 +553,11 @@ i {
 }
 
 .footerLink {
-
   padding-bottom: 0.5em;
   cursor: pointer;
   text-decoration: none;
   color: black;
 }
-
-
-
 
 @media all and (max-width: 668px) {
   .topHeader {
@@ -670,7 +699,6 @@ i {
   }
 
   .host {
-
     width: 100%;
     background-color: #f2f2f2;
     margin: 0.5em 1% 1em 1%;
@@ -692,19 +720,17 @@ i {
   }
 
   .activities {
-    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1fr 1fr;
     grid-template-areas:
-    "at1 at1 at1"
-    "a1 a2 a3"
-    "a4 a5 a6"
-    ;
+      "at1 at1 at1"
+      "a1 a2 a3"
+      "a4 a5 a6";
     margin: 2em 5% 4em 5%;
     width: 90%;
-
   }
 
-  .activityCardBig{
+  .activityCardBig {
     width: auto;
     height: 12em;
     margin-bottom: 0;
@@ -717,9 +743,6 @@ i {
     width: auto;
     height: 12em;
   }
-
-
-
 }
 
 @media (min-width: 641px) {
@@ -905,7 +928,6 @@ i {
     margin-right: auto;
     margin-bottom: 1em;
 
-
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
   }
 
@@ -928,7 +950,6 @@ i {
     padding-top: 1em;
     padding-left: 1em;
     font-weight: bold;
-
   }
 
   #a6 {
@@ -978,8 +999,8 @@ i {
 
   .footerContainer {
     display: grid;
-    grid-template-columns: 1fr ;
-    grid-template-rows:  1fr 0.75fr 0.75fr ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.75fr 0.75fr;
     background-color: #f2f2f2;
     width: 100%;
     grid-template-areas:
@@ -990,7 +1011,6 @@ i {
     padding-top: 2em;
     padding-bottom: 2em;
     grid-gap: 0;
-
   }
 
   .about {
@@ -998,9 +1018,9 @@ i {
     display: flex;
     flex-direction: column;
     justify-items: start;
-  align-items: flex-start;
-  margin-bottom: 2em;
-  padding-left: 2em;
+    align-items: flex-start;
+    margin-bottom: 2em;
+    padding-left: 2em;
   }
 
   .ourHosts {
@@ -1008,11 +1028,9 @@ i {
     display: flex;
     flex-direction: column;
     justify-items: start;
-  align-items: flex-start;
-  padding-left: 2em;
-  margin-bottom: 2em;
-
-
+    align-items: flex-start;
+    padding-left: 2em;
+    margin-bottom: 2em;
   }
 
   .help {
@@ -1020,11 +1038,9 @@ i {
     display: flex;
     flex-direction: column;
     justify-items: start;
-  align-items: flex-start;
-  padding-left: 2em;
-  margin-bottom: 0em;
-
-
+    align-items: flex-start;
+    padding-left: 2em;
+    margin-bottom: 0em;
   }
 
   .footerTitle {
