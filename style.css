@@ -228,7 +228,7 @@ i {
   transition: 0.3s ease-in-out;
   margin-right: 0;
   margin-left: 0;
-  
+
   /* box-shadow: 0 0 0.1em 0.5em #0000002e; */
 }
 .hostCard:hover {
@@ -429,7 +429,7 @@ i {
   height: 25em;
   object-fit: cover;
   border-radius: 25%;
-  
+
 
   /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
@@ -648,7 +648,7 @@ i {
   .topHeader {
     margin: 1em 5% 1em 5%;
   }
- 
+
   .popular {
     display: flex;
     flex-direction: column;
@@ -670,7 +670,7 @@ i {
   }
 
   .host {
-    
+
     width: 100%;
     background-color: #f2f2f2;
     margin: 0.5em 1% 1em 1%;
@@ -690,11 +690,11 @@ i {
     grid-template-columns: 0.5fr 1.5fr 1.5fr 1.25fr 0.25fr;
     grid-gap: 3em;
   }
-  
+
   .activities {
     grid-template-columns:  1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1fr 1fr;
-    grid-template-areas: 
+    grid-template-areas:
     "at1 at1 at1"
     "a1 a2 a3"
     "a4 a5 a6"
@@ -703,7 +703,7 @@ i {
     width: 90%;
 
   }
-  
+
   .activityCardBig{
     width: auto;
     height: 12em;
@@ -904,7 +904,7 @@ i {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
-    
+
 
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
   }
@@ -928,7 +928,7 @@ i {
     padding-top: 1em;
     padding-left: 1em;
     font-weight: bold;
-    
+
   }
 
   #a6 {
@@ -992,7 +992,7 @@ i {
     grid-gap: 0;
 
   }
-  
+
   .about {
     grid-area: about;
     display: flex;
@@ -1002,7 +1002,7 @@ i {
   margin-bottom: 2em;
   padding-left: 2em;
   }
-  
+
   .ourHosts {
     grid-area: ourHosts;
     display: flex;
@@ -1014,7 +1014,7 @@ i {
 
 
   }
-  
+
   .help {
     grid-area: help;
     display: flex;
@@ -1026,7 +1026,7 @@ i {
 
 
   }
-  
+
   .footerTitle {
     font-size: large;
     font-weight: bold;
