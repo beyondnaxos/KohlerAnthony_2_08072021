@@ -387,8 +387,8 @@ i {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 1fr 1fr;
-  margin: 2em 10% 3em 10%;
-  width: 80%;
+  margin: 2em 13% 3em 13%;
+  width: 74%;
   grid-template-areas:
     "at1 at1 at1 at1"
     "a1 a2 a4 a5"
@@ -477,6 +477,54 @@ i {
   object-fit: cover;
   border-radius: 2em 2em 0 0;
 }
+
+.footerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #f2f2f2;
+  width: 100%;
+  grid-template-areas:
+    " . about ourHosts help . "
+    " . about ourHosts help . ";
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+.about {
+  grid-area: about;
+  display: flex;
+  flex-direction: column;
+}
+
+.ourHosts {
+  grid-area: ourHosts;
+  display: flex;
+  flex-direction: column;
+}
+
+.help {
+  grid-area: help;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerTitle {
+  font-size: large;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+.footerLink {
+  
+  padding-bottom: 0.5em;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+
+
 
 @media all and (max-width: 668px) {
   .topHeader {
