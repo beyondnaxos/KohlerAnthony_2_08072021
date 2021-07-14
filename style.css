@@ -228,6 +228,7 @@ i {
   transition: 0.3s ease-in-out;
   margin-right: 0;
   margin-left: 0;
+  
   /* box-shadow: 0 0 0.1em 0.5em #0000002e; */
 }
 .hostCard:hover {
@@ -657,6 +658,7 @@ i {
     border-radius: 1em;
     justify-content: space-evenly;
     margin: 0.5em 1% 1em 1%;
+    padding-bottom: 1em;
   }
 
   .popCard {
@@ -672,6 +674,7 @@ i {
     width: 100%;
     background-color: #f2f2f2;
     margin: 0.5em 1% 1em 1%;
+    justify-content: space-around;
   }
   .hostCard {
     width: 45%;
