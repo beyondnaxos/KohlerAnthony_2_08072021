@@ -93,7 +93,7 @@ strong {
   flex-direction: column;
   margin: 1em 13% 1em 13%;
 }
-.filtres {
+.filters {
   margin-top: 1.3em;
   display: flex;
   flex-direction: row;
@@ -101,18 +101,18 @@ strong {
   align-content: center;
   flex-wrap: wrap;
 }
-.titleFiltre {
+.titleFilter {
   font-weight: bold;
   margin-right: 1.5em;
   /* display: flex;
     align-items: center; */
 }
-.btn-filtres {
+.btn-filters {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.filtre {
+.filter {
   margin-right: 1.5em;
   font-weight: bold;
   border-radius: 2em;
@@ -127,7 +127,7 @@ strong {
   border-left: none;
   transition-duration: 250ms;
 }
-.filtre:hover {
+.filter:hover {
   transform: scale(1.1);
   background-color: #0065fc;
   color: white;
@@ -145,7 +145,7 @@ strong {
   align-items: center;
   z-index: 1;
 }
-.filtre:hover .iconFilter {
+.filter:hover .iconFilter {
   background-color: #ffffff;
   color: #0065fc;
   transition-duration: 450ms;
@@ -597,7 +597,7 @@ i {
 }
 
 @media all and (max-width: 1150px) {
-  .filtre {
+  .filter {
     margin-top: 0.5em;
   }
 }
