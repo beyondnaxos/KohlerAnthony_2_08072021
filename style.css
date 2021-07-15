@@ -104,8 +104,6 @@ strong {
 .titleFilter {
   font-weight: bold;
   margin-right: 1.5em;
-  /* display: flex;
-    align-items: center; */
 }
 .btn-filters {
   display: flex;
@@ -186,7 +184,6 @@ i {
   border-radius: 0.5em 0 0 0.5em;
 }
 .hostAndPopular {
-  /* margin: 1em auto 1em 13%; */
   display: flex;
   flex-direction: row;
   background-color: #ffffff;
@@ -218,8 +215,6 @@ i {
   background-color: #ffffff;
   width: 30%;
   margin-bottom: 1.5em;
-  /* margin: 0.5em; */
-  /* padding-right: 0; */
   border-radius: 1em;
   display: flex;
   flex-direction: column;
@@ -231,17 +226,14 @@ i {
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
-
 .hostCard:hover {
   transform: scale(1.02);
   transition: 0.3s ease-in-out;
 }
-
 .popCard:hover {
   transform: scale(1.02);
   transition: 0.3s ease-in-out;
 }
-
 .host img {
   border-radius: 1em 1em 0 0;
   padding-top: 0.25em;
@@ -304,13 +296,11 @@ i {
   color: #f2f2f2;
   margin-right: 0.2em;
 }
-
 .footerHostTitle {
   width: 100%;
   padding-left: 4%;
   padding-bottom: 1em;
 }
-
 .popular {
   display: flex;
   flex-direction: row;
@@ -321,28 +311,23 @@ i {
   justify-content: space-evenly;
   margin: 1em 13% 1em auto;
 }
-
 .popHostTitle {
   display: flex;
   align-items: center;
   margin-left: 1em;
   margin-right: auto;
 }
-
 .popHostTitle h3 {
   font-size: 1.3em;
   font-weight: bold;
   margin-top: 0.5em;
 }
-
 .popCard {
   display: flex;
   flex-direction: row;
   background-color: #ffffff;
   width: 95%;
   height: 25%;
-  /* margin: 0.5em; */
-  /* padding-right: 0; */
   border-radius: 1em;
   display: flex;
   flex-direction: row;
@@ -354,7 +339,6 @@ i {
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
-
 .popCard img {
   border-radius: 1em 0 0 1em;
   padding: 0.25em;
@@ -362,13 +346,11 @@ i {
   height: auto;
   object-fit: cover;
 }
-
 .popInfo {
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
-
 .popInfo h3 {
   margin-top: 0.5em;
   margin-left: 1em;
@@ -378,22 +360,12 @@ i {
   margin-top: 0.5em;
   margin-left: 1em;
 }
-
 .popInfo .hostCardRating {
   margin-left: 1em;
   margin-top: auto;
   padding-left: 0;
 }
-
 .activities {
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  background-color: #f2f2f2;
-  border-radius: 1em;
-  justify-content: space-evenly;
-   */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 1fr 1fr;
@@ -405,7 +377,6 @@ i {
     "a1 a3 a4 a6";
   grid-gap: 3em;
 }
-
 #at1 {
   grid-area: at1;
   font-weight: bold;
@@ -413,7 +384,6 @@ i {
   padding-left: 1em;
   font-size: 1.5em;
 }
-
 #a1 {
   grid-area: a1;
 }
@@ -432,7 +402,6 @@ i {
 #a6 {
   grid-area: a6;
 }
-
 .activityCardBig {
   width: 100%;
   height: 25em;
@@ -443,39 +412,32 @@ i {
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
-
 .activityCardBig img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 2em 2em 0 0;
 }
-
 .activityCardSmall:hover {
   transform: scale(1.02);
   transition: 0.3s ease-in-out;
 }
-
 .activityCardMedium:hover {
   transform: scale(1.02);
   transition: 0.3s ease-in-out;
 }
-
 .activityCardBig:hover {
   transform: scale(1.02);
   transition: 0.3s ease-in-out;
 }
-
 .activityName {
   padding-top: 1em;
   padding-left: 1em;
   font-weight: bold;
-  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 0.2em 1em 0px; */
   padding-bottom: 1em;
   border-radius: 0 0 1.5em 1.5em;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
 .activityCardMedium {
   width: 100%;
   height: 13em;
@@ -486,16 +448,13 @@ i {
   transition: 0.3s ease-in-out;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
-  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
-
 .activityCardMedium img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 2em 2em 0 0;
 }
-
 .activityCardSmall {
   width: 100%;
   height: 7em;
@@ -505,16 +464,13 @@ i {
   transition: 0.3s ease-in-out;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
-  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
-
 .activityCardSmall img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 2em 2em 0 0;
 }
-
 .footerContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -527,38 +483,32 @@ i {
   padding-top: 2em;
   padding-bottom: 3em;
 }
-
 .about {
   grid-area: about;
   display: flex;
   flex-direction: column;
 }
-
 .ourHosts {
   grid-area: ourHosts;
   display: flex;
   flex-direction: column;
 }
-
 .help {
   grid-area: help;
   display: flex;
   flex-direction: column;
 }
-
 .footerTitle {
   font-size: large;
   font-weight: bold;
   padding-bottom: 0.5em;
 }
-
 .footerLink {
   padding-bottom: 0.5em;
   cursor: pointer;
   text-decoration: none;
   color: black;
 }
-
 @media all and (max-width: 668px) {
   .topHeader {
     margin: 0.5em 0.5em 0.5em 0.5em;
@@ -567,7 +517,6 @@ i {
     display: inline-flex;
     flex-flow: row;
     justify-content: center;
-    /* color: #f2f2f2; */
     font-weight: bold;
     border-bottom: 0.2em solid #f2f2f2;
     border-top: none;
@@ -615,7 +564,6 @@ i {
   .host {
     width: 100%;
   }
-
   .host img {
     border-radius: 0.7em 0.7em 0 0;
     padding-top: 0.3em;
@@ -624,13 +572,11 @@ i {
     object-fit: cover;
   }
 }
-
 @media all and (max-width: 1150px) {
   .filter {
     margin-top: 0.5em;
   }
 }
-
 @media all and (max-width: 1859px) {
   .host {
     flex-direction: row;
@@ -639,11 +585,9 @@ i {
     margin: 0;
     order: 2;
   }
-
   .popHostTitle {
     padding: 0.5em;
   }
-
   .popular {
     order: 1;
     flex-direction: row;
@@ -653,17 +597,14 @@ i {
     align-items: center;
     margin-bottom: 1em;
   }
-
   .popCard {
     width: 25%;
     margin: 0.5em;
     height: 8em;
   }
-
   .hostCard {
     width: 32%;
   }
-
   .hostAndPopular {
     display: flex;
     flex-direction: column;
@@ -672,12 +613,10 @@ i {
     width: 88%;
   }
 }
-
 @media all and (max-width: 1210px) {
   .topHeader {
     margin: 1em 5% 1em 5%;
   }
-
   .popular {
     display: flex;
     flex-direction: column;
@@ -689,15 +628,12 @@ i {
     margin: 0.5em 1% 1em 1%;
     padding-bottom: 1em;
   }
-
   .popCard {
     width: 95%;
   }
-
   .popCard img {
     height: 100%;
   }
-
   .host {
     width: 100%;
     background-color: #f2f2f2;
@@ -707,18 +643,15 @@ i {
   .hostCard {
     width: 45%;
   }
-
   .searchHeader {
     display: flex;
     flex-direction: column;
     margin: 1em 5% 1em 5%;
   }
-
   .footerContainer {
     grid-template-columns: 0.5fr 1.5fr 1.5fr 1.25fr 0.25fr;
     grid-gap: 3em;
   }
-
   .activities {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1fr 1fr;
@@ -729,7 +662,6 @@ i {
     margin: 2em 5% 4em 5%;
     width: 90%;
   }
-
   .activityCardBig {
     width: auto;
     height: 12em;
@@ -744,7 +676,6 @@ i {
     height: 12em;
   }
 }
-
 @media (min-width: 641px) {
   span.icon {
     display: none;
@@ -753,7 +684,6 @@ i {
     display: inline-block;
   }
 }
-
 @media (max-width: 640px) {
   span.icon {
     display: inline-block;
@@ -764,7 +694,6 @@ i {
   .glass {
     color: white;
   }
-
   .popInfo h3 {
     margin-top: 0.5em;
     margin-left: 1em;
@@ -776,7 +705,6 @@ i {
     margin-left: 1em;
     font-size: 0.8em;
   }
-
   .popInfo .hostCardRating {
     margin-left: 1em;
     margin-top: auto;
@@ -786,38 +714,30 @@ i {
   .searchBar {
     display: flex;
     flex-direction: row;
-    /* padding: 0.8em; */
     padding-top: 1.2em;
     margin: auto;
-    /* overflow: auto; */
   }
-
   .searchInput {
     border: none;
   }
-
   .searchButton {
     padding-right: 0;
     display: flex;
     justify-content: center;
     border-radius: 30%;
   }
-
   .searchButton:hover .icon .glass {
     color: #0065fc;
     background-color: #fff;
   }
-
   * {
     font-size: 1em;
   }
-
   .searchHeader {
     display: flex;
     flex-direction: column;
     margin: 1em 5% 1em 5%;
   }
-
   .host {
     display: flex;
     flex-direction: row;
@@ -828,7 +748,6 @@ i {
     justify-content: space-evenly;
     margin: 1em 1% 1em 1%;
   }
-
   .popular {
     display: flex;
     flex-direction: row;
@@ -839,15 +758,12 @@ i {
     justify-content: space-evenly;
     margin: 0.5em 1% 1em 1%;
   }
-
   .popCard img {
     height: 100%;
   }
-
   .hostCard {
     width: 95%;
   }
-
   .host img {
     border-radius: 1em 1em 0 0;
     padding-top: 0.25em;
@@ -855,27 +771,21 @@ i {
     height: 9em;
     object-fit: cover;
   }
-
   .hostCardName {
     font-size: 1.2em;
   }
-
   .hostCardPrice {
     font-size: 1.2em;
   }
-
   .hostCardRating {
     font-size: 1.2em;
   }
-
   .iconFilter {
     margin-right: 0.5em;
   }
-
   .activities {
     background-color: #f2f2f2;
     border-radius: 1em;
-
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -892,14 +802,12 @@ i {
 
     gap: 0;
   }
-
   #at1 {
     grid-area: at1;
     font-weight: bold;
     padding-top: 1em;
     padding-left: 1em;
   }
-
   #a1 {
     grid-area: a1;
   }
@@ -918,7 +826,6 @@ i {
   #a6 {
     grid-area: a6;
   }
-
   .activityCardBig {
     width: 92%;
     height: 10em;
@@ -927,17 +834,13 @@ i {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
-
-    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
   }
-
   .activityCardBig img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 2em 2em 0 0;
   }
-
   .activityTitle {
     width: 100%;
     height: auto;
@@ -945,13 +848,11 @@ i {
     margin-right: auto;
     margin-bottom: 1em;
   }
-
   .activityName {
     padding-top: 1em;
     padding-left: 1em;
     font-weight: bold;
   }
-
   #a6 {
     margin-bottom: 7em;
   }
@@ -963,24 +864,14 @@ i {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
-
-    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
   }
-
   .activityCardMedium img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 2em 2em 0 0;
   }
-
   .activityCardSmall {
-    /* width: 100%;
-    height: 15em;
-    object-fit: cover;
-    border-radius: 25%;
-    margin-bottom: 1em; */
-    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     width: 92%;
     height: 10em;
     object-fit: cover;
@@ -989,14 +880,12 @@ i {
     margin-right: auto;
     margin-bottom: 1em;
   }
-
   .activityCardSmall img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 2em 2em 0 0;
   }
-
   .footerContainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -1012,7 +901,6 @@ i {
     padding-bottom: 2em;
     grid-gap: 0;
   }
-
   .about {
     grid-area: about;
     display: flex;
@@ -1022,7 +910,6 @@ i {
     margin-bottom: 2em;
     padding-left: 2em;
   }
-
   .ourHosts {
     grid-area: ourHosts;
     display: flex;
@@ -1032,7 +919,6 @@ i {
     padding-left: 2em;
     margin-bottom: 2em;
   }
-
   .help {
     grid-area: help;
     display: flex;
@@ -1042,7 +928,6 @@ i {
     padding-left: 2em;
     margin-bottom: 0em;
   }
-
   .footerTitle {
     font-size: large;
     font-weight: bold;
