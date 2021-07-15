@@ -17,7 +17,7 @@
   flex-wrap: wrap;
   align-items: center;
 }
-.testt {
+.navGroup {
   justify-content: center;
 }
 .topNavMenu {
@@ -541,7 +541,7 @@ i {
     border-top: none;
     transition-duration: 250ms;
   }
-  .testt {
+  .navGroup {
     width: 100%;
     order: 2;
     display: flex;
