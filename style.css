@@ -6,9 +6,11 @@
   margin: 0;
   padding: 0;
 }
+
 .logogo {
   margin-right: auto;
 }
+
 .topHeader {
   display: flex;
   flex-direction: row;
@@ -17,9 +19,11 @@
   flex-wrap: wrap;
   align-items: center;
 }
+
 .navGroup {
   justify-content: center;
 }
+
 .topNavMenu {
   padding: 0.8em 1.4em 0.5em 1.4em;
   text-decoration: none;
@@ -27,50 +31,61 @@
   color: black;
   width: 50%;
 }
+
 .topNavMenu:hover {
   color: #0065fc;
   font-weight: bold;
   border-top: 0.4em solid #0065fc;
   transition-duration: 250ms;
 }
+
 .topNavSignUp {
   padding: 0.5em 1.4em 0.5em 1.4em;
   text-decoration: none;
   font-weight: bold;
   color: #0065fc;
 }
+
 .hostNav {
   order: 1;
 }
+
 .actNav {
   order: 2;
 }
+
 .signNav {
   order: 3;
 }
+
 #titleSearch {
   font-weight: bolder;
   margin-top: 0.2em;
   margin-bottom: 0.2em;
   font-size: 1.4em;
 }
+
 #parSearch {
   margin-top: 0.2em;
   margin-bottom: 0.4em;
 }
+
 .searchBar {
   display: flex;
   flex-direction: row;
   padding-top: 1em;
 }
+
 .searchInput {
   border: 0.1em solid #f2f2f2;
   font-weight: bold;
   padding-left: 1rem;
 }
+
 strong {
   font-weight: bold;
 }
+
 .searchButton {
   border: none;
   background-color: #0065fc;
@@ -81,6 +96,7 @@ strong {
   transition-duration: 350ms;
   cursor: pointer;
 }
+
 .searchButton:hover {
   background-color: white;
   color: #0065fc;
@@ -88,11 +104,13 @@ strong {
   transition-delay: 50ms;
   font-weight: bold;
 }
+
 .searchHeader {
   display: flex;
   flex-direction: column;
   margin: 1em 13% 1em 13%;
 }
+
 .filters {
   margin-top: 1.3em;
   display: flex;
@@ -101,15 +119,18 @@ strong {
   align-content: center;
   flex-wrap: wrap;
 }
+
 .titleFilter {
   font-weight: bold;
   margin-right: 1.5em;
 }
+
 .btn-filters {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .filter {
   margin-right: 1.5em;
   font-weight: bold;
@@ -125,6 +146,7 @@ strong {
   border-left: none;
   transition-duration: 250ms;
 }
+
 .filter:hover {
   transform: scale(1.1);
   background-color: #0065fc;
@@ -132,6 +154,7 @@ strong {
   transition-duration: 250ms;
   border: 0.15em solid #0066fc;
 }
+
 .iconFilter {
   background-color: #deebff;
   border-radius: 100%;
@@ -143,6 +166,7 @@ strong {
   align-items: center;
   z-index: 1;
 }
+
 .filter:hover .iconFilter {
   background-color: #ffffff;
   color: #0065fc;
@@ -155,25 +179,30 @@ strong {
   align-items: center;
   align-self: center;
 }
+
 button {
   padding-left: 0;
   padding-top: 0;
   padding-bottom: 0;
   padding-right: 1.3em;
 }
+
 .quote {
   display: flex;
   align-items: center;
   margin-top: 2em;
   margin-bottom: 0;
 }
+
 .fas {
   margin-right: 1.3em;
   padding-left: 0;
 }
+
 i {
   color: #0065fc;
 }
+
 .material-icons {
   display: flex;
   color: black;
@@ -183,12 +212,14 @@ i {
   background-color: #f2f2f2;
   border-radius: 0.5em 0 0 0.5em;
 }
+
 .hostAndPopular {
   display: flex;
   flex-direction: row;
   background-color: #ffffff;
   justify-content: space-between;
 }
+
 .host {
   display: flex;
   flex-direction: row;
@@ -199,6 +230,7 @@ i {
   justify-content: space-evenly;
   margin: 1em 5% 1em 13%;
 }
+
 .headerHostTitle {
   width: 100%;
   font-size: 1.3em;
@@ -206,9 +238,11 @@ i {
   margin-top: 0.7em;
   margin-bottom: 0.7em;
 }
+
 .headerHostTitle h3 {
   font-weight: 600;
 }
+
 .hostCard {
   display: flex;
   flex-direction: row;
@@ -223,17 +257,19 @@ i {
   transition: 0.3s ease-in-out;
   margin-right: 0;
   margin-left: 0;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
-    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
+
 .hostCard:hover {
   transform: scale(1.02);
   transition: 0.3s ease-in-out;
 }
+
 .popCard:hover {
   transform: scale(1.02);
   transition: 0.3s ease-in-out;
 }
+
 .host img {
   border-radius: 1em 1em 0 0;
   padding-top: 0.25em;
@@ -241,6 +277,7 @@ i {
   height: 7em;
   object-fit: cover;
 }
+
 .hostName {
   font-weight: bold;
   padding-left: 1em;
@@ -251,12 +288,14 @@ i {
   font-size: 0.9em;
   font-weight: 600;
 }
+
 .hostPrice {
   padding-left: 1em;
   margin-top: 0.3em;
   margin-bottom: 0.4em;
   font-size: 0.9em;
 }
+
 .HostCardImageBig {
   display: flex;
   flex-direction: column;
@@ -264,14 +303,17 @@ i {
   text-decoration: none;
   color: black;
 }
+
 .HostCardImageBig img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0.2em;
 }
+
 #emptyStar {
   color: #f2f2f2;
 }
+
 .hostCardRating {
   display: flex;
   flex-direction: row;
@@ -281,26 +323,32 @@ i {
   height: 1.2em;
   padding-top: 0.3em;
 }
+
 .hostCardName {
   margin-top: 0.5em;
 }
+
 .hostCardPrice {
   display: flex;
   align-items: center;
   margin: 0;
 }
+
 .ratingStar {
   margin-right: 0.2em;
 }
+
 .emptyStar {
   color: #f2f2f2;
   margin-right: 0.2em;
 }
+
 .footerHostTitle {
   width: 100%;
   padding-left: 4%;
   padding-bottom: 1em;
 }
+
 .popular {
   display: flex;
   flex-direction: row;
@@ -311,17 +359,20 @@ i {
   justify-content: space-evenly;
   margin: 1em 13% 1em auto;
 }
+
 .popHostTitle {
   display: flex;
   align-items: center;
   margin-left: 1em;
   margin-right: auto;
 }
+
 .popHostTitle h3 {
   font-size: 1.3em;
   font-weight: bold;
   margin-top: 0.5em;
 }
+
 .popCard {
   display: flex;
   flex-direction: row;
@@ -331,15 +382,14 @@ i {
   border-radius: 1em;
   display: flex;
   flex-direction: row;
-
   transform: scale(1);
   transition: 0.3s ease-in-out;
   margin-right: 0;
   margin-left: 0;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
-    rgba(17, 17, 26, 0.05) 0px 8px 32px;
-    cursor: pointer;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  cursor: pointer;
 }
+
 .popCard img {
   border-radius: 1em 0 0 1em;
   padding: 0.25em;
@@ -347,37 +397,40 @@ i {
   height: auto;
   object-fit: cover;
 }
+
 .popInfo {
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
+
 .popInfo h3 {
   margin-top: 0.5em;
   margin-left: 1em;
   font-weight: bold;
 }
+
 .popInfo p {
   margin-top: 0.5em;
   margin-left: 1em;
 }
+
 .popInfo .hostCardRating {
   margin-left: 1em;
   margin-top: auto;
   padding-left: 0;
 }
+
 .activities {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 1fr 1fr;
   margin: 2em 13% 3em 13%;
   width: 74%;
-  grid-template-areas:
-    "at1 at1 at1 at1"
-    "a1 a2 a4 a5"
-    "a1 a3 a4 a6";
+  grid-template-areas: "at1 at1 at1 at1" "a1 a2 a4 a5" "a1 a3 a4 a6";
   grid-gap: 3em;
 }
+
 #at1 {
   grid-area: at1;
   font-weight: bold;
@@ -385,24 +438,31 @@ i {
   padding-left: 1em;
   font-size: 1.5em;
 }
+
 #a1 {
   grid-area: a1;
 }
+
 #a2 {
   grid-area: a2;
 }
+
 #a3 {
   grid-area: a3;
 }
+
 #a4 {
   grid-area: a4;
 }
+
 #a5 {
   grid-area: a5;
 }
+
 #a6 {
   grid-area: a6;
 }
+
 .activityCardBig {
   width: 100%;
   height: 25em;
@@ -410,28 +470,32 @@ i {
   border-radius: 25%;
   transform: scale(1);
   transition: 0.3s ease-in-out;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
-    rgba(17, 17, 26, 0.05) 0px 8px 32px;
-    cursor: pointer;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  cursor: pointer;
 }
+
 .activityCardBig img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 2em 2em 0 0;
 }
+
 .activityCardSmall:hover {
   transform: scale(1.02);
   transition: 0.3s ease-in-out;
 }
+
 .activityCardMedium:hover {
   transform: scale(1.02);
   transition: 0.3s ease-in-out;
 }
+
 .activityCardBig:hover {
   transform: scale(1.02);
   transition: 0.3s ease-in-out;
 }
+
 .activityName {
   padding-top: 1em;
   padding-left: 1em;
@@ -440,6 +504,7 @@ i {
   border-radius: 0 0 1.5em 1.5em;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 .activityCardMedium {
   width: 100%;
   height: 13em;
@@ -448,17 +513,17 @@ i {
   margin-bottom: 2em;
   transform: scale(1);
   transition: 0.3s ease-in-out;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
-    rgba(17, 17, 26, 0.05) 0px 8px 32px;
-    cursor: pointer;
-
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  cursor: pointer;
 }
+
 .activityCardMedium img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 2em 2em 0 0;
 }
+
 .activityCardSmall {
   width: 100%;
   height: 7em;
@@ -466,55 +531,59 @@ i {
   border-radius: 25%;
   transform: scale(1);
   transition: 0.3s ease-in-out;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
-    rgba(17, 17, 26, 0.05) 0px 8px 32px;
-    cursor: pointer;
-
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  cursor: pointer;
 }
+
 .activityCardSmall img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 2em 2em 0 0;
 }
+
 .footerContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   background-color: #f2f2f2;
   width: 100%;
-  grid-template-areas:
-    " . about ourHosts help . "
-    " . about ourHosts help . ";
+  grid-template-areas: " . about ourHosts help . " " . about ourHosts help . ";
   padding-top: 2em;
   padding-bottom: 3em;
 }
+
 .about {
   grid-area: about;
   display: flex;
   flex-direction: column;
 }
+
 .ourHosts {
   grid-area: ourHosts;
   display: flex;
   flex-direction: column;
 }
+
 .help {
   grid-area: help;
   display: flex;
   flex-direction: column;
 }
+
 .footerTitle {
   font-size: large;
   font-weight: bold;
   padding-bottom: 0.5em;
 }
+
 .footerLink {
   padding-bottom: 0.5em;
   cursor: pointer;
   text-decoration: none;
   color: black;
 }
+
 @media all and (max-width: 668px) {
   .topHeader {
     margin: 0.5em 0.5em 0.5em 0.5em;
@@ -578,11 +647,13 @@ i {
     object-fit: cover;
   }
 }
+
 @media all and (max-width: 1150px) {
   .filter {
     margin-top: 0.5em;
   }
 }
+
 @media all and (max-width: 1859px) {
   .host {
     flex-direction: row;
@@ -619,6 +690,7 @@ i {
     width: 88%;
   }
 }
+
 @media all and (max-width: 1210px) {
   .topHeader {
     margin: 1em 5% 1em 5%;
@@ -661,10 +733,7 @@ i {
   .activities {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1fr 1fr;
-    grid-template-areas:
-      "at1 at1 at1"
-      "a1 a2 a3"
-      "a4 a5 a6";
+    grid-template-areas: "at1 at1 at1" "a1 a2 a3" "a4 a5 a6";
     margin: 2em 5% 4em 5%;
     width: 90%;
   }
@@ -682,6 +751,7 @@ i {
     height: 12em;
   }
 }
+
 @media (min-width: 641px) {
   span.icon {
     display: none;
@@ -690,6 +760,7 @@ i {
     display: inline-block;
   }
 }
+
 @media (max-width: 640px) {
   span.icon {
     display: inline-block;
@@ -797,15 +868,7 @@ i {
     grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr;
     margin: 2em 5% 3em 5%;
     width: 90%;
-    grid-template-areas:
-      "at1"
-      "a1"
-      "a2"
-      "a3"
-      "a4"
-      "a5"
-      "a6";
-
+    grid-template-areas: "at1" "a1" "a2" "a3" "a4" "a5" "a6";
     gap: 0;
   }
   #at1 {
@@ -898,11 +961,7 @@ i {
     grid-template-rows: 1fr 0.75fr 0.75fr;
     background-color: #f2f2f2;
     width: 100%;
-    grid-template-areas:
-      "about"
-      "ourHosts"
-      "help";
-
+    grid-template-areas: "about" "ourHosts" "help";
     padding-top: 2em;
     padding-bottom: 2em;
     grid-gap: 0;
