@@ -31,3 +31,8 @@
          Css : responsive desktop tablette et phone Ok ! mise en place des ombres et des effets de scale . finition de la categorie activities 
          
          soucis : ras - à revoir : mettre des balises sémantiques (articles figure etc ..)
+
+15/07/ html : rename class , nettoyage du ficher , remove image en trop , upload sur github page 
+       Cs : affinage , nettoyage rename class 
+       
+       soucis : ras , rajouter l'icône à droite de populaire 
