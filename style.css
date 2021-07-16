@@ -14,7 +14,7 @@
 .topHeader {
   display: flex;
   flex-direction: row;
-  margin: 1em 13% 1em 13%;
+  margin: 0.5em 13% 1em 13%;
   justify-content: flex-end;
   flex-wrap: wrap;
   align-items: center;
