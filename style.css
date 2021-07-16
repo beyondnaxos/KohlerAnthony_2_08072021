@@ -607,7 +607,7 @@ i {
   }
 }
 
-@media all and (max-width: 1859px) {
+@media all and (max-width: 1300px) {
   .host {
     flex-direction: row;
     width: 100%;
