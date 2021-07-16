@@ -32,7 +32,12 @@
          
          soucis : ras - à revoir : mettre des balises sémantiques (articles figure etc ..)
 
-15/07/ html : rename class , nettoyage du ficher , remove image en trop , upload sur github page 
-       Cs : affinage , nettoyage rename class 
+15/07/21 Html : rename class , nettoyage du ficher , remove image en trop , upload sur github page 
+        Css : affinage , nettoyage rename class 
        
-       soucis : ras , rajouter l'icône à droite de populaire 
+        soucis : ras , rajouter l'icône à droite de populaire 
+       
+16/07/21 Html : //   
+         Css : reparation bug affichage desktop vus avec mentor. resize elements
+         
+         soucis : réparer tous les média queries
