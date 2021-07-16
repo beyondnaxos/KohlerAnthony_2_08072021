@@ -705,6 +705,16 @@ i {
     width: auto;
     height: 12em;
   }
+
+  .hostAndPopular {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: center;
+    width: 94%;
+    margin: 1em 3% 1em 3%;
+    
+  }
 }
 
 @media all and (max-width: 668px) {
