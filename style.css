@@ -89,7 +89,7 @@ strong {
 .searchButton {
   border: none;
   background-color: #0065fc;
-  padding: 1.1em 1.2em 1.1em 1.2em;
+  padding: 0.9em 1.2em 0.9em 1.2em;
   color: white;
   border-radius: 0 0.8em 0.8em 0;
   font-weight: bold;
@@ -171,6 +171,7 @@ strong {
 .filter:hover .iconFilter {
   background-color: #ffffff;
   color: #0065fc;
+  transform: scale(1);
   transition-duration: 450ms;
   height: 2.5rem;
   width: 2.5rem;
@@ -665,7 +666,7 @@ i {
 
 @media all and (max-width: 1150px) {
   .filter {
-    margin-top: 0.5em;
+    margin-top: 0.8em;
   }
 }
 
@@ -786,6 +787,7 @@ i {
   }
   .glass {
     color: white;
+    margin-right: 0;
   }
   .popInfo h3 {
     margin-top: 0.5em;
@@ -804,21 +806,38 @@ i {
     padding-left: 0;
     font-size: 0.8em;
   }
+
+
+  .filter:hover .iconFilter {
+    background-color: #ffffff;
+    color: #0065fc;
+    transform: scale(0.9);
+    transition-duration: 450ms;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  
   .searchBar {
     display: flex;
     flex-direction: row;
     padding-top: 1.2em;
     margin: auto;
-    transform: scale(0.9)
+    transform: scale(1)
   }
   .searchInput {
     border: none;
   }
   .searchButton {
-    padding-right: 0;
+    padding: 0.9em 0.9em 0.9em 0.9em;
     display: flex;
     justify-content: center;
     border-radius: 30%;
+
   }
   .searchButton:hover .icon .glass {
     color: #0065fc;
@@ -1022,4 +1041,5 @@ i {
     margin-bottom: 1em;
     margin-left: 0.5em;
   }
+  
 }
