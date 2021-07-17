@@ -613,17 +613,23 @@ i {
     font-size: 0.6em;
   }
 }
+@media all and (max-width: 1000px) {
+
+  .activityName {
+    font-size: 0.8em;
+  }
+}
 @media all and (max-width: 735px) {
 
   .activityName {
-    font-size: 0.5em;
+    font-size: 0.7em;
   }
 
 }
 @media all and (max-width: 665px) {
 
   .activityName {
-    font-size: 0.4em;
+    font-size: 0.65em;
   }
 
 }
