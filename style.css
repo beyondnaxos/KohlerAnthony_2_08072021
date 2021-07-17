@@ -307,7 +307,7 @@ i {
 .HostCardImageBig {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   text-decoration: none;
   color: black;
   width: 100%;
@@ -757,6 +757,8 @@ i {
   .topHeader {
     margin: 0.5em 0.5em 0.5em 0.5em;
   }
+
+
   .topNavMenu {
     display: inline-flex;
     flex-flow: row;
@@ -770,6 +772,10 @@ i {
     order: 2;
     width: 50%;
   }
+
+  .HostCardImageBig {
+    height: auto;
+}
   .actNav {
     order: 3;
     width: 50%;
@@ -935,6 +941,7 @@ i {
   }
   .hostCardRating {
     font-size: 1.2em;
+    margin-bottom: 1em;
   }
   .iconFilter {
     margin-right: 0.5em;
