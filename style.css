@@ -7,6 +7,12 @@
   padding: 0;
 }
 
+body {
+  display: flex;
+flex-direction: column;
+  justify-content: center;
+}
+
 .logogo {
   margin-right: auto;
 }
@@ -443,7 +449,7 @@ i {
   grid-template-rows: 0.2fr 1fr 1fr;
   margin: 2em 13% 3em 13%;
   width: 74%;
-  grid-template-areas: "at1 at1 at1 at1" "a1 a2 a4 a5" "a1 a3 a4 a6";
+  grid-template-areas: "at1 at1 at1 at1" "a1 a2 a4 a5" "a1 a3 a4 a6" ;
   grid-gap: 3em;
 }
 
@@ -947,13 +953,14 @@ i {
     margin-right: 0.5em;
   }
   .activities {
+    border-radius: 0 0 0 0;
     background-color: #f2f2f2;
-    border-radius: 1em;
+    
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin: 2em 5% 3em 5%;
-    width: 90%;
+    margin: 2em 1% 3em 1%;
+    width: 98%;
     grid-template-areas: "at1" "a1" "a2" "a3" "a4" "a5" "a6";
     gap: 0;
   }
