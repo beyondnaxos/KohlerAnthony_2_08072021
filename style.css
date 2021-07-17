@@ -9,7 +9,7 @@
 
 body {
   display: flex;
-flex-direction: column;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -129,7 +129,6 @@ strong {
 .titleFilter {
   font-weight: bold;
   margin-right: 1.5em;
-  
 }
 
 .btn-filters {
@@ -245,7 +244,6 @@ i {
   margin-left: 1.3em;
   margin-top: 0.7em;
   margin-bottom: 0.7em;
-  
 }
 
 .headerHostTitle h2 {
@@ -267,7 +265,6 @@ i {
   margin-right: 0;
   margin-left: 0;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-  
 }
 
 .hostCard:hover {
@@ -289,7 +286,6 @@ i {
 }
 
 .hostName {
-  
   font-weight: bold;
   padding-left: 1em;
   padding-right: 0.5em;
@@ -298,8 +294,7 @@ i {
   padding-top: 0;
   font-size: 0.9em;
   font-weight: 600;
-  
-  
+  flex-grow: 2;
 }
 
 .hostPrice {
@@ -315,6 +310,7 @@ i {
   justify-content: center;
   text-decoration: none;
   color: black;
+  width: 100%;
 }
 
 .HostCardImageBig img {
@@ -332,9 +328,10 @@ i {
   flex-direction: row;
   justify-content: flex-start;
   padding-left: 0.9em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   height: 1.2em;
   padding-top: 0.3em;
+  margin-bottom: 1em;
 }
 
 .hostCardName {
@@ -344,7 +341,6 @@ i {
 .hostCardPrice {
   display: flex;
   align-items: center;
-  margin: 0;
 }
 
 .ratingStar {
@@ -378,7 +374,6 @@ i {
   display: flex;
   flex-direction: row;
   align-items: center;
-  
   justify-content: space-between;
   width: 100%;
 }
@@ -397,7 +392,6 @@ i {
   color: black;
   margin-right: 0;
   padding-right: 1em;
-
 }
 
 .popCard {
@@ -454,7 +448,7 @@ i {
   grid-template-rows: 0.2fr 1fr 1fr;
   margin: 2em 13% 3em 13%;
   width: 74%;
-  grid-template-areas: "at1 at1 at1 at1" "a1 a2 a4 a5" "a1 a3 a4 a6" ;
+  grid-template-areas: "at1 at1 at1 at1" "a1 a2 a4 a5" "a1 a3 a4 a6";
   grid-gap: 3em;
 }
 
@@ -611,11 +605,19 @@ i {
   color: black;
 }
 
-
-
+@media all and (max-width: 1544px) {
+  .hostCard {
+    justify-content: flex-start;
+  }
+  .hostCardPrice {
+    margin-top: auto;
+  }
+  .HostCardImageBig {
+    height: 14em;
+  }
+}
 
 @media all and (max-width: 1470px) {
-
   .activityName {
     font-size: 0.8em;
   }
@@ -646,11 +648,9 @@ i {
     height: 8em;
     margin-bottom: 1em;
   }
-
   .hostCard {
     width: 30%;
   }
-
   .hostAndPopular {
     display: flex;
     flex-direction: column;
@@ -661,7 +661,6 @@ i {
 }
 
 @media all and (max-width: 1214px) {
-
   .activityName {
     font-size: 0.6em;
   }
@@ -674,11 +673,9 @@ i {
 }
 
 @media all and (max-width: 1000px) {
-
   .activityName {
     font-size: 0.8em;
   }
-
   .topHeader {
     margin: 1em 5% 1em 5%;
   }
@@ -693,7 +690,6 @@ i {
     margin: 0.5em 2.5% 1em 2.5%;
     padding-bottom: 1em;
   }
-  
   .popCard img {
     height: 100%;
   }
@@ -735,7 +731,6 @@ i {
     width: auto;
     height: 12em;
   }
-
   .hostAndPopular {
     display: flex;
     flex-direction: column;
@@ -743,28 +738,20 @@ i {
     justify-content: center;
     width: 94%;
     margin: 1em 3% 1em 3%;
-    
   }
 }
-@media all and (max-width: 735px) {
 
+@media all and (max-width: 735px) {
   .activityName {
     font-size: 0.7em;
   }
-
 }
-@media all and (max-width: 665px) {
 
+@media all and (max-width: 665px) {
   .activityName {
     font-size: 0.65em;
   }
-
 }
-
-
-
-
-
 
 @media all and (max-width: 668px) {
   .topHeader {
@@ -816,7 +803,6 @@ i {
     flex-direction: column;
     background-color: #ffffff;
     justify-content: center;
-    
   }
   .host {
     width: 100%;
@@ -830,7 +816,6 @@ i {
   }
 }
 
-
 @media (min-width: 641px) {
   span.icon {
     display: none;
@@ -839,7 +824,6 @@ i {
     display: inline-block;
   }
 }
-
 
 @media (max-width: 640px) {
   span.icon {
@@ -869,8 +853,6 @@ i {
     padding-left: 0;
     font-size: 0.8em;
   }
-
-
   .filter:hover .iconFilter {
     background-color: #ffffff;
     color: #0065fc;
@@ -884,7 +866,6 @@ i {
     align-items: center;
     align-self: center;
   }
-  
   .searchBar {
     display: flex;
     flex-direction: row;
@@ -900,7 +881,6 @@ i {
     display: flex;
     justify-content: center;
     border-radius: 30%;
-
   }
   .searchButton:hover .icon .glass {
     color: #0065fc;
@@ -962,7 +942,6 @@ i {
   .activities {
     border-radius: 0 0 0 0;
     background-color: #f2f2f2;
-    
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -1021,7 +1000,7 @@ i {
     padding-top: 1em;
     padding-left: 1em;
     font-weight: bold;
-      font-size: 1em;
+    font-size: 1em;
   }
   #a6 {
     margin-bottom: 7em;
@@ -1099,12 +1078,10 @@ i {
     font-weight: bold;
     padding-bottom: 0.5em;
   }
-
   .titleFilter {
     font-weight: bold;
     margin-right: 1.5em;
     margin-bottom: 1em;
     margin-left: 0.5em;
   }
-  
 }
