@@ -356,6 +356,7 @@ i {
   width: 100%;
   padding-left: 4%;
   padding-bottom: 1em;
+  cursor: pointer;
 }
 
 .popular {
