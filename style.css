@@ -607,39 +607,6 @@ i {
     font-size: 0.8em;
   }
 }
-@media all and (max-width: 1214px) {
-
-  .activityName {
-    font-size: 0.6em;
-  }
-}
-@media all and (max-width: 1000px) {
-
-  .activityName {
-    font-size: 0.8em;
-  }
-}
-@media all and (max-width: 735px) {
-
-  .activityName {
-    font-size: 0.7em;
-  }
-
-}
-@media all and (max-width: 665px) {
-
-  .activityName {
-    font-size: 0.65em;
-  }
-
-}
-
-
-@media all and (max-width: 1150px) {
-  .filter {
-    margin-top: 0.8em;
-  }
-}
 
 @media all and (max-width: 1300px) {
   .host {
@@ -680,7 +647,25 @@ i {
   }
 }
 
+@media all and (max-width: 1214px) {
+
+  .activityName {
+    font-size: 0.6em;
+  }
+}
+
+@media all and (max-width: 1150px) {
+  .filter {
+    margin-top: 0.8em;
+  }
+}
+
 @media all and (max-width: 1000px) {
+
+  .activityName {
+    font-size: 0.8em;
+  }
+
   .topHeader {
     margin: 1em 5% 1em 5%;
   }
@@ -748,6 +733,25 @@ i {
     
   }
 }
+@media all and (max-width: 735px) {
+
+  .activityName {
+    font-size: 0.7em;
+  }
+
+}
+@media all and (max-width: 665px) {
+
+  .activityName {
+    font-size: 0.65em;
+  }
+
+}
+
+
+
+
+
 
 @media all and (max-width: 668px) {
   .topHeader {
