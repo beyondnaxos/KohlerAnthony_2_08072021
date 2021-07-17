@@ -123,6 +123,7 @@ strong {
 .titleFilter {
   font-weight: bold;
   margin-right: 1.5em;
+  
 }
 
 .btn-filters {
@@ -238,6 +239,7 @@ i {
   margin-left: 1.3em;
   margin-top: 0.7em;
   margin-bottom: 0.7em;
+  
 }
 
 .headerHostTitle h3 {
@@ -365,6 +367,7 @@ i {
   display: flex;
   flex-direction: row;
   align-items: center;
+  
   justify-content: space-between;
   width: 100%;
 }
@@ -383,6 +386,7 @@ i {
   color: black;
   margin-right: 0;
   padding-right: 1em;
+
 }
 
 .popCard {
@@ -596,29 +600,40 @@ i {
   color: black;
 }
 
+
 @media all and (max-width: 1470px) {
+
   .activityName {
     font-size: 0.8em;
   }
 }
-
 @media all and (max-width: 1214px) {
+
   .activityName {
     font-size: 0.6em;
   }
 }
+@media all and (max-width: 1000px) {
 
+  .activityName {
+    font-size: 0.8em;
+  }
+}
 @media all and (max-width: 735px) {
+
   .activityName {
-    font-size: 0.5em;
+    font-size: 0.7em;
   }
+
+}
+@media all and (max-width: 665px) {
+
+  .activityName {
+    font-size: 0.65em;
+  }
+
 }
 
-@media all and (max-width: 665px) {
-  .activityName {
-    font-size: 0.4em;
-  }
-}
 
 @media all and (max-width: 1150px) {
   .filter {
@@ -651,9 +666,11 @@ i {
     height: 8em;
     margin-bottom: 1em;
   }
+
   .hostCard {
     width: 30%;
   }
+
   .hostAndPopular {
     display: flex;
     flex-direction: column;
@@ -678,6 +695,7 @@ i {
     margin: 0.5em 2.5% 1em 2.5%;
     padding-bottom: 1em;
   }
+  
   .popCard img {
     height: 100%;
   }
@@ -719,6 +737,7 @@ i {
     width: auto;
     height: 12em;
   }
+
   .hostAndPopular {
     display: flex;
     flex-direction: column;
@@ -726,6 +745,7 @@ i {
     justify-content: center;
     width: 94%;
     margin: 1em 3% 1em 3%;
+    
   }
 }
 
@@ -779,6 +799,7 @@ i {
     flex-direction: column;
     background-color: #ffffff;
     justify-content: center;
+    
   }
   .host {
     width: 100%;
@@ -792,6 +813,7 @@ i {
   }
 }
 
+
 @media (min-width: 641px) {
   span.icon {
     display: none;
@@ -800,6 +822,7 @@ i {
     display: inline-block;
   }
 }
+
 
 @media (max-width: 640px) {
   span.icon {
@@ -829,6 +852,8 @@ i {
     padding-left: 0;
     font-size: 0.8em;
   }
+
+
   .filter:hover .iconFilter {
     background-color: #ffffff;
     color: #0065fc;
@@ -842,6 +867,7 @@ i {
     align-items: center;
     align-self: center;
   }
+  
   .searchBar {
     display: flex;
     flex-direction: row;
@@ -857,6 +883,7 @@ i {
     display: flex;
     justify-content: center;
     border-radius: 30%;
+
   }
   .searchButton:hover .icon .glass {
     color: #0065fc;
@@ -976,7 +1003,7 @@ i {
     padding-top: 1em;
     padding-left: 1em;
     font-weight: bold;
-    font-size: 1em;
+      font-size: 1em;
   }
   #a6 {
     margin-bottom: 7em;
@@ -1054,10 +1081,12 @@ i {
     font-weight: bold;
     padding-bottom: 0.5em;
   }
+
   .titleFilter {
     font-weight: bold;
     margin-right: 1.5em;
     margin-bottom: 1em;
     margin-left: 0.5em;
   }
+  
 }
