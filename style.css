@@ -248,7 +248,7 @@ i {
   
 }
 
-.headerHostTitle h3 {
+.headerHostTitle h2 {
   font-weight: 600;
 }
 
@@ -267,6 +267,7 @@ i {
   margin-right: 0;
   margin-left: 0;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  
 }
 
 .hostCard:hover {
@@ -281,21 +282,24 @@ i {
 
 .host img {
   border-radius: 1em 1em 0 0;
-  padding-top: 0.25em;
-  width: 94%;
+  padding-top: 0.20em;
+  width: 96%;
   height: 7em;
   object-fit: cover;
 }
 
 .hostName {
+  
   font-weight: bold;
   padding-left: 1em;
-  padding-right: 1em;
+  padding-right: 0.5em;
   margin-top: 0.2em;
   margin-bottom: 0;
   padding-top: 0;
   font-size: 0.9em;
   font-weight: 600;
+  
+  
 }
 
 .hostPrice {
@@ -379,7 +383,7 @@ i {
   width: 100%;
 }
 
-.popHostTitle h3 {
+.popHostTitle h2 {
   font-size: 1.3em;
   font-weight: bold;
   margin-top: 0.5em;
@@ -606,6 +610,8 @@ i {
   text-decoration: none;
   color: black;
 }
+
+
 
 
 @media all and (max-width: 1470px) {
