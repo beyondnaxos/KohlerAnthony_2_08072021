@@ -601,6 +601,34 @@ i {
 }
 
 
+@media all and (max-width: 1470px) {
+
+  .activityName {
+    font-size: 0.8em;
+  }
+}
+@media all and (max-width: 1214px) {
+
+  .activityName {
+    font-size: 0.6em;
+  }
+}
+@media all and (max-width: 735px) {
+
+  .activityName {
+    font-size: 0.5em;
+  }
+
+}
+@media all and (max-width: 665px) {
+
+  .activityName {
+    font-size: 0.4em;
+  }
+
+}
+
+
 @media all and (max-width: 1150px) {
   .filter {
     margin-top: 0.8em;
@@ -628,7 +656,7 @@ i {
     margin-bottom: 1em;
   }
   .popCard {
-    width: 30%;
+    width: 95%;
     height: 8em;
     margin-bottom: 1em;
   }
@@ -646,7 +674,7 @@ i {
   }
 }
 
-@media all and (max-width: 1210px) {
+@media all and (max-width: 1000px) {
   .topHeader {
     margin: 1em 5% 1em 5%;
   }
@@ -661,9 +689,7 @@ i {
     margin: 0.5em 2.5% 1em 2.5%;
     padding-bottom: 1em;
   }
-  .popCard {
-    width: 95%;
-  }
+  
   .popCard img {
     height: 100%;
   }
@@ -971,6 +997,7 @@ i {
     padding-top: 1em;
     padding-left: 1em;
     font-weight: bold;
+      font-size: 1em;
   }
   #a6 {
     margin-bottom: 7em;
