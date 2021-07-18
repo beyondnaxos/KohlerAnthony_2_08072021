@@ -1,3 +1,5 @@
+/* *********BODY&ALL********** */
+
 * {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -12,6 +14,8 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+/* ************NAV************ */
 
 .logogo {
   margin-right: auto;
@@ -63,6 +67,8 @@ body {
 .signNav {
   order: 3;
 }
+
+/* ************SEARCH&FITLERS************** */
 
 #titleSearch {
   font-weight: bolder;
@@ -219,6 +225,8 @@ i {
   background-color: #f2f2f2;
   border-radius: 0.5em 0 0 0.5em;
 }
+
+/* ************HOST&POPULAR************** */
 
 .hostAndPopular {
   display: flex;
@@ -442,6 +450,8 @@ i {
   padding-left: 0;
 }
 
+/* **************ACTIVITIES**************** */
+
 .activities {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -563,6 +573,8 @@ i {
   border-radius: 2em 2em 0 0;
 }
 
+/* *****************FOOTER**************** */
+
 .footerContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -605,6 +617,8 @@ i {
   color: black;
 }
 
+/* *********NON-WIDE-SCREENS************** */
+
 @media all and (max-width: 1544px) {
   .hostCard {
     justify-content: flex-start;
@@ -622,6 +636,8 @@ i {
     font-size: 0.8em;
   }
 }
+
+/* *************TABLETS*************** */
 
 @media all and (max-width: 1300px) {
   .host {
@@ -747,6 +763,8 @@ i {
   }
 }
 
+/* ***************MOBILE******************* */
+
 @media all and (max-width: 665px) {
   .activityName {
     font-size: 0.65em;
@@ -757,8 +775,6 @@ i {
   .topHeader {
     margin: 0.5em 0.5em 0.5em 0.5em;
   }
-
-
   .topNavMenu {
     display: inline-flex;
     flex-flow: row;
@@ -772,10 +788,9 @@ i {
     order: 2;
     width: 50%;
   }
-
   .HostCardImageBig {
     height: auto;
-}
+  }
   .actNav {
     order: 3;
     width: 50%;
