@@ -453,13 +453,15 @@ i {
 /* **************ACTIVITIES**************** */
 
 .activities {
+  padding-bottom: 5em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 1fr 1fr;
+  grid-template-rows: 0.2fr auto auto auto;
   margin: 2em 13% 3em 13%;
   width: 74%;
-  grid-template-areas: "at1 at1 at1 at1" "a1 a2 a4 a5" "a1 a3 a4 a6";
-  grid-gap: 3em;
+  grid-template-areas: "at1 at1 at1 at1" "a1 a2 a4 a5" "a1 a2 a4 a6" "a1 a3 a4 a6";
+  grid-row-gap: 3em;
+  grid-column-gap: 3rem;
 }
 
 #at1 {
@@ -472,31 +474,37 @@ i {
 
 #a1 {
   grid-area: a1;
+  height: 25rem;
 }
 
 #a2 {
   grid-area: a2;
+  height: 13rem;
 }
 
 #a3 {
   grid-area: a3;
+  height: 7rem;
 }
 
 #a4 {
   grid-area: a4;
+  height: 25rem;
 }
 
 #a5 {
   grid-area: a5;
+  height: 7rem;
 }
 
 #a6 {
   grid-area: a6;
+  height: 13rem;
 }
 
 .activityCardBig {
   width: 100%;
-  height: 25em;
+  /* height: 25rem; */
   object-fit: cover;
   border-radius: 25%;
   transform: scale(1);
@@ -538,7 +546,7 @@ i {
 
 .activityCardMedium {
   width: 100%;
-  height: 13em;
+  /* height: 13rem; */
   object-fit: cover;
   border-radius: 25%;
   margin-bottom: 2em;
@@ -557,7 +565,7 @@ i {
 
 .activityCardSmall {
   width: 100%;
-  height: 7em;
+  /* height: 7rem; */
   object-fit: cover;
   border-radius: 25%;
   transform: scale(1);
@@ -677,9 +685,9 @@ i {
 }
 
 @media all and (max-width: 1263px) {
- .titleFilter {
-   margin-bottom: 1em;
- }
+  .titleFilter {
+    margin-bottom: 1em;
+  }
 }
 
 @media all and (max-width: 1214px) {
@@ -742,16 +750,16 @@ i {
   }
   .activityCardBig {
     width: auto;
-    height: 12em;
+    /* height: 12em; */
     margin-bottom: 0;
   }
   .activityCardMedium {
     width: auto;
-    height: 12em;
+    /* height: 12em; */
   }
   .activityCardSmall {
     width: auto;
-    height: 12em;
+    /* height: 12em; */
   }
   .hostAndPopular {
     display: flex;
@@ -761,6 +769,38 @@ i {
     width: 94%;
     margin: 1em 3% 1em 3%;
   }
+
+  #a1 {
+    grid-area: a1;
+    height: 12rem;
+  }
+  
+  #a2 {
+    grid-area: a2;
+    height: 12rem;
+  }
+  
+  #a3 {
+    grid-area: a3;
+    height: 12rem;
+  }
+  
+  #a4 {
+    grid-area: a4;
+    height: 12rem;
+  }
+  
+  #a5 {
+    grid-area: a5;
+    height: 12rem;
+  }
+  
+  #a6 {
+    grid-area: a6;
+    height: 12rem;
+  }
+
+
 }
 
 @media all and (max-width: 735px) {
@@ -833,14 +873,12 @@ i {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    
   }
   .host {
     width: 100%;
     border-radius: none;
   }
-
-  .popular{
+  .popular {
     border-radius: none;
   }
   .host img {
