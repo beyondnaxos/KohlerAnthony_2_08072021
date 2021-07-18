@@ -41,3 +41,13 @@
          Css : reparation bug affichage desktop vus avec mentor. resize elements
          
          soucis : réparer tous les média queries
+         
+17/07/21 Html : //
+         Css : journée réparation sur le problème de responsive de la veille , nettoyage du document , réorganisation des médias queries 
+         
+         soucis : ras ; Mettre des annotations dans le CSS et index.html 
+         
+18/07/21 Html : Annotation en coms dans le code 
+         Css : Annotation en coms dans le code   utilisation de prettier 
+         
+         soucis : ras 
