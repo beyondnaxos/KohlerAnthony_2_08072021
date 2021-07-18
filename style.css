@@ -830,9 +830,18 @@ i {
     flex-direction: column;
     background-color: #ffffff;
     justify-content: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    
   }
   .host {
     width: 100%;
+    border-radius: none;
+  }
+
+  .popular{
+    border-radius: none;
   }
   .host img {
     border-radius: 0.7em 0.7em 0 0;
