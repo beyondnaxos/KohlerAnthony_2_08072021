@@ -407,7 +407,7 @@ i {
   flex-direction: row;
   background-color: #ffffff;
   width: 95%;
-  height: 25%;
+  height: 8em;
   border-radius: 1em;
   display: flex;
   flex-direction: row;
@@ -666,11 +666,13 @@ i {
     margin: 0;
     align-items: center;
     margin-bottom: 1em;
+    row-gap: 1em;
+    padding-bottom: 1em;
   }
   .popCard {
     width: 95%;
     height: 8em;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
   }
   .hostCard {
     width: 30%;
