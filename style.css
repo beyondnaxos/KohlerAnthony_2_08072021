@@ -207,6 +207,10 @@ button {
   margin-bottom: 0;
 }
 
+.fa-info {
+  font-size: 0.8em;
+}
+
 .fas {
   margin-right: 1.3em;
   padding-left: 0;
