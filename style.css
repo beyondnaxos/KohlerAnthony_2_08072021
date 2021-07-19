@@ -44,7 +44,7 @@ body {
 
 .topNavMenu:hover {
   color: #0065fc;
-  font-weight: bold;
+  /* font-weight: bold; */
   border-top: 0.4em solid #0065fc;
   transition-duration: 250ms;
 }
@@ -827,7 +827,7 @@ i {
     display: inline-flex;
     flex-flow: row;
     justify-content: center;
-    font-weight: bold;
+    /* font-weight: bold; */
     border-bottom: 0.2em solid #f2f2f2;
     border-top: none;
     transition-duration: 250ms;
@@ -849,7 +849,7 @@ i {
   }
   .topNavMenu:hover {
     color: #0065fc;
-    font-weight: bold;
+    /* font-weight: bold; */
     border-bottom: 0.2em solid #0065fc;
     border-top: none;
     transition-duration: 250ms;
