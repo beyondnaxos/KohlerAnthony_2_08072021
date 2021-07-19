@@ -208,7 +208,15 @@ button {
 }
 
 .fa-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 0.8em;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  border: 2px solid #f2f2f2;
+  
 }
 
 .fas {
@@ -1167,4 +1175,16 @@ i {
     margin-bottom: 1em;
     margin-left: 0.5em;
   }
+  .fa-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    width: 2.5rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: 2px solid #f2f2f2;
+    
+  }
+  
 }
