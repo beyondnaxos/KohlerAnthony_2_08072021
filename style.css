@@ -946,11 +946,13 @@ i {
     display: flex;
     flex-direction: row;
     padding-top: 1.2em;
-    margin: auto;
-    transform: scale(1)
+    
+    transform: scale(1);
+    /* width: 100%; */
   }
   .searchInput {
     border: none;
+    width: 75vw;
   }
   .searchButton {
     padding: 0.9em 0.9em 0.9em 0.9em;
