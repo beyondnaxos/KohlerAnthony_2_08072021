@@ -585,7 +585,7 @@ i {
 
 .footerContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 0.6fr 1fr 1.1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   background-color: #f2f2f2;
   width: 100%;
