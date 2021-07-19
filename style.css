@@ -878,10 +878,10 @@ i {
   }
   .host {
     width: 100%;
-    border-radius: none;
+    border-radius: 0;
   }
   .popular {
-    border-radius: none;
+    border-radius: 0;
   }
   .host img {
     border-radius: 0.7em 0.7em 0 0;
