@@ -35,7 +35,7 @@ body {
 }
 
 .topNavMenu {
-  padding: 0.8em 1.4em 0.5em 1.4em;
+  padding: 1em 1.4em 0.5em 1.4em;
   text-decoration: none;
   transition-duration: 250ms;
   color: black;
