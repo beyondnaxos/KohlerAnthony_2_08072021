@@ -51,3 +51,8 @@
          Css : Annotation en coms dans le code   utilisation de prettier 
          
          soucis : ras 
+
+19/07/21 Html : Remplacement de l'icone info
+         Css : mise en forme icone + suppression bgc host and activity en version mobile 
+         
+         soucis : ras ; projet uplodé sur ocr 
