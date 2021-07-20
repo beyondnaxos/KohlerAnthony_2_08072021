@@ -94,6 +94,10 @@ body {
   padding-left: 1rem;
 }
 
+::placeholder{
+  color: black;
+  opacity: 1;
+}
 strong {
   font-weight: bold;
 }
